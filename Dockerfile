@@ -8,6 +8,7 @@ RUN apk add --no-cache \
     nodejs \
     nodejs-npm \
     yarn \
+    composer \
     openssh-client
 
 ENTRYPOINT []

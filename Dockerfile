@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.12
 
 RUN apk --no-cache add lftp
 RUN apk add --no-cache \
@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     curl \
     git \
     nodejs \
-    nodejs-npm \
+    npm \
     yarn \
     composer \
     openssh-client
